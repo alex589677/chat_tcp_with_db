@@ -1,0 +1,7 @@
+create database dbtest;
+show databases;
+use dbtest;
+show tables;
+drop table users, msg;
+delete from users where id > 0; --удаление всех значений в таблице users
+--alter table users drop column name cascade; 
